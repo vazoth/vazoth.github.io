@@ -102,20 +102,20 @@
  </div>
  
  <div>
- <input type = "text" id="x1" oninput=mult()>
+ <input type = "text" id="x4" oninput=mult()>
  *
- <input type = "text" id="x2" oninput=mult()>
+ <input type = "text" id="x5" oninput=mult()>
  =
- <input type = "text" id="x3">
+ <input type = "text" id="x6">
  </div>
  
  
  <div>
- <input type = "text" id="x1" oninput=sub()>
+ <input type = "text" id="x7" oninput=sub()>
  -
- <input type = "text" id="x2" oninput=sub()>
+ <input type = "text" id="x8" oninput=sub()>
  =
- <input type = "text" id="x3">
+ <input type = "text" id="x9">
  </div>
  
  <p>a real calculator</p>
@@ -168,16 +168,16 @@
   }
   
   function mult() {
-   var x1 =parseInt( document.getElementById("x1").value);
-   var x2 =parseInt( document.getElementById("x2").value);
-   document.getElementById("x3").value = x1 *x2;
+   var x1 =parseInt( document.getElementById("x4").value);
+   var x2 =parseInt( document.getElementById("x5").value);
+   document.getElementById("x6").value = x1 *x2;
    
   }
   
   function sub() {
-   var x1 =parseInt( document.getElementById("x1").value);
-   var x2 =parseInt( document.getElementById("x2").value);
-   document.getElementById("x3").value = x1 -x2;
+   var x1 =parseInt( document.getElementById("x7").value);
+   var x2 =parseInt( document.getElementById("x8").value);
+   document.getElementById("x9").value = x1 -x2;
    
   }
   
